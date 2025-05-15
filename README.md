@@ -9,6 +9,12 @@ A lightweight web app to track DevOps project velocity. Built to run as a single
 ## 🐳 Quick Start (Docker)
 
 ```bash
+docker pull whkirk/devops-velocity
+docker run -it -p 9001:80 whkirk/devops-velocity
+```
+
+### Build
+```bash
 # Clone the repo
 git clone https://github.com/hunterkirk/devops-velocity.git
 cd devops-velocity
@@ -18,9 +24,10 @@ docker build -t devops-velocity .
 
 # Run the container
 docker run -p 9001:80 devops-velocity
+```
 
-# Edit project name
+### Edit project name
 right click over project
 
-# Set velocity for lifecycle 
+### Set velocity for lifecycle 
 click on gauge
