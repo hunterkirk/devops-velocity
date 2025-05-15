@@ -12,6 +12,7 @@ A lightweight web app to track DevOps project velocity. Built to run as a single
 docker pull whkirk/devops-velocity
 docker run -it -p 9001:80 whkirk/devops-velocity
 ```
+Open your browser to http://localhost:9001
 
 ### Build
 ```bash
