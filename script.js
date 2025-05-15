@@ -142,7 +142,7 @@ addProjectBtn.onclick = () => {
   if (name) {
     const newProject = {
       name,
-      stages: Array(stages.length).fill(10)
+      stages: Array(stages.length).fill(0)
     };
     projects.push(newProject);
     saveProjects();
