@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Velocity Project Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/gauge.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans h-screen flex overflow-hidden">
+
+  <!-- Tree Panel -->
+  <div class="w-1/4 bg-gray-800 p-4 overflow-y-auto border-r border-gray-700">
+    <h2 class="text-lg font-bold mb-4">DevOps Projects</h2>
+    <ul id="projectList" class="space-y-2"></ul>
+    <button id="addProjectBtn" class="mt-4 text-blue-500 text-sm hover:underline">+ Add Project</button>
+  </div>
+
+  <!-- Detail Panel -->
+  <div class="flex-1 p-6 overflow-y-auto">
+    <h1 id="projectTitle" class="text-2xl font-bold mb-6">Select a project</h1>
+    <div id="gaugesPanel" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

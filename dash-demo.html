@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Lifecycle Velocity Dashboard</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- canvas-gauges -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-gauges@2.1.7/gauge.min.js"></script>
+
+</head>
+<body class="bg-gray-900 text-white font-sans min-h-screen p-8">
+  <h1 class="text-4xl font-bold text-center mb-10">DevOps Lifecycle Velocity Dashboard</h1>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <!-- Gauge Card -->
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Plan</h2>
+      <canvas data-type="radial-gauge"
+              data-title=""
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(0,150,255,0.7)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Develop</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(255,215,0,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Test</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(255,69,0,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Integrate</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(0,255,127,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Deploy</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(0,255,255,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Operate</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(100,149,237,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Monitor</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(255,140,0,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+
+    <div class="bg-gray-800 rounded-lg p-4 shadow-md text-center">
+      <h2 class="text-lg font-semibold mb-2">Feedback</h2>
+      <canvas data-type="radial-gauge"
+              data-value="10"
+              data-min-value="0"
+              data-max-value="100"
+              data-width="200"
+              data-height="200"
+              data-bar-width="10"
+              data-color-bar-progress="rgba(173,255,47,0.75)"
+              data-color-plate="#1f2937"
+              data-color-background="#1f2937"
+              data-color-units="#fff"
+              data-color-value="#fff"
+              data-color-major-ticks="#bbb"
+              data-color-minor-ticks="#888">
+      </canvas>
+    </div>
+  </div>
+</body>
+</html>
