@@ -28,7 +28,7 @@ docker run -p 9001:80 devops-velocity
 ```
 
 ### Edit project name
-right click over project
+* Right click over project.
 
 ### Set velocity for lifecycle 
-click on gauge
+* Click on gauge.
